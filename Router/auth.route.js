@@ -16,5 +16,8 @@ const router = express.Router();
 router.post("/register", upload.single("avatar"), register);
 router.post("/login", login);
 router.post("/logout", logout);
+app.get("/l",(req,res)=>{
+  res.send("Live");
+})
 
 export default router;
