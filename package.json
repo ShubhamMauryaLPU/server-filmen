@@ -162,8 +162,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "npx --no-install nodemon server.js",
+    "start": "node app.js",
+    "dev": "npx --no-install nodemon app.js",
     "build": "npm i"
   },
   "keywords": [],
